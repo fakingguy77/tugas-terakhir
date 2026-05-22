@@ -1,0 +1,42 @@
+body {
+  background: #f4f5f7;
+}
+
+.site-header {
+  background: linear-gradient(135deg, #001f4d, #00408a);
+}
+
+.back-link {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: white;
+}
+
+.project-content {
+  max-width: 800px;
+}
+
+.project-screenshot {
+  height: 300px;
+  object-fit: cover;
+}
+
+.tag {
+  display: inline-block;
+  background: #dde8fb;
+  color: #0055aa;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 14px;
+  border-radius: 20px;
+}
+
+.site-footer {
+  background: #001f4d;
+}
