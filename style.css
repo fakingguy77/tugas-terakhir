@@ -1,0 +1,163 @@
+/* ── GLOBAL ── */
+body {
+  background: #f4f5f7;
+}
+
+/* ── HEADER ── */
+.site-header {
+  background: linear-gradient(135deg, #001f4d 0%, #00408a 100%);
+}
+
+.header-label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  color: white;
+}
+
+/* ── SECTION TITLES ── */
+.section-title {
+  color: #001f4d;
+  border-bottom: 3px solid #0055aa;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+/* ── PROFILE PHOTO ── */
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.photo-placeholder {
+  width: 140px;
+  height: 140px;
+  background: #e9eef5;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #888;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}
+
+.photo-placeholder span {
+  font-size: 28px;
+}
+
+/* ── BIODATA ── */
+.bio-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bio-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #0055aa;
+}
+
+.bio-item span:last-child {
+  font-size: 14px;
+  color: #333;
+}
+
+/* ── ABOUT PHOTO ── */
+.about-photo {
+  max-height: 260px;
+  object-fit: cover;
+}
+
+.about-placeholder {
+  width: 100%;
+  height: 200px;
+  background: #e9eef5;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #888;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}
+
+.about-placeholder span {
+  font-size: 30px;
+}
+
+/* ── TABLE ── */
+.table-head th {
+  background: #001f4d;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.badge-nilai {
+  display: inline-block;
+  background: #dde8fb;
+  color: #0055aa;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 3px 14px;
+  border-radius: 20px;
+}
+
+.badge-nilai.high {
+  background: #001f4d;
+  color: white;
+}
+
+/* ── PROJECT CARDS ── */
+.project-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12) !important;
+}
+
+.project-img {
+  height: 160px;
+  object-fit: cover;
+}
+
+.img-placeholder {
+  height: 160px;
+  background: #e9eef5;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.img-placeholder span {
+  font-size: 26px;
+}
+
+.project-num {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #0055aa;
+  opacity: 0.6;
+}
+
+/* ── FOOTER ── */
+.site-footer {
+  background: #001f4d;
+}
